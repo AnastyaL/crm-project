@@ -35,6 +35,7 @@ export default {
   },
   methods: {
     getCurrency(currency) {
+      console.log('+++++');
       return Math.floor(this.base * this.rates[currency]);
     },
   },
